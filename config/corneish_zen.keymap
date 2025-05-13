@@ -47,7 +47,7 @@
           tapping-term-ms = <140>;
           quick-tap-ms = <200>;
           flavor = "tap-preferred";
-          bindings = <&kp>, <&kp>;
+          bindings = <&kp LSHIFT>, <&kp SPACE>;
       };
 
       shent: shift_enter {
@@ -57,7 +57,7 @@
           tapping-term-ms = <120>;
           quick-tap-ms = <200>;
           flavor = "balanced";
-          bindings = <&kp>, <&kp>;
+          bindings = <&kp RSHIFT>, <&kp RET>;
       };
     };
 
@@ -70,7 +70,7 @@
 &kp ESC        &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SEMI &bspdel
 &lt NUM TAB    &kp A &kp R &kp S &kp T &kp G   &kp M &kp N  &kp E     &kp I   &kp O    &kp SQT
 &mt LCTRL LBKT &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &mt RCTRL RBKT
-  &kp LALT &mo SYM &shspc LSHIFT SPACE   &shent RSHIFT RET &mo NAV &kp RGUI
+                   &kp LALT &mo SYM &shspc      &shent &mo NAV &kp RGUI
           >;
         };
 
